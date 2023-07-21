@@ -32,6 +32,6 @@ body {
 
     .logo-image {
         width: 200px;
-        /*height: auto;/* Adjust the width for mobile devices */
+        height: auto;/* Adjust the width for mobile devices */
     }
 }
