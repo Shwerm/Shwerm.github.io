@@ -26,11 +26,12 @@ body {
 @media only screen and (max-width: 600px) {
     .background-image {
         /* Adjust background size for mobile devices */
-        width: 100%;
+        width: 50%;
         height: auto;
     }
 
     .logo-image {
-        width: 80px; /* Adjust the width for mobile devices */
+        width: 150px;
+        height: auto;/* Adjust the width for mobile devices */
     }
 }
