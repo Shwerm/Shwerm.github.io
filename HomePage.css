@@ -31,7 +31,7 @@ body {
     }
 
     .logo-image {
-        width: 150px;
-        height: auto;/* Adjust the width for mobile devices */
+        width: 200px;
+        /*height: auto;/* Adjust the width for mobile devices */
     }
 }
