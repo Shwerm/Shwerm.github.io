@@ -23,4 +23,10 @@ body {
 }
 
 
-/*https://www.instagram.com/dottedoccurrence/
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .logo-image {
+        width: 80px; /* Adjust the width for mobile devices */
+    }
+}
+
