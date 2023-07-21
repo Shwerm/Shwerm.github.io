@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello, World!</title>
+    <title>Full Screen Image</title>
+    <link rel="stylesheet" type="text/css" href="homepage.css">
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <img src="Images/HomePage/WipHomePageBG.jpg" alt="Full Screen Image" class="background-image">
+    <img src="Images/HomePage/DottedLogo.png" alt="Logo" class="logo-image" onclick="openInstagramProfile()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
+    
+    <script>
+        function openInstagramProfile() {
+            window.open('https://www.instagram.com/dottedoccurrence/', '_blank');
+        }
+        
+        function changeCursor(cursorType) {
+            document.querySelector('.logo-image').style.cursor = cursorType;
+        }
+    </script>
 </body>
 </html>

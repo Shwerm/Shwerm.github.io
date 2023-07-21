@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    overflow: hidden; /* Prevent scrollbars */
+}
+
+.background-image {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.logo-image {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 400px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+/*https://www.instagram.com/dottedoccurrence/
