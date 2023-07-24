@@ -30,7 +30,7 @@ body {
         position: absolute;
         top: 40px;
         left: 40px;
-        width: 500px; /* Adjust for mobile devices */
+        width: 400px; /* Adjust for mobile devices */
         height: auto; 
     }
 
