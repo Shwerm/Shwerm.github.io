@@ -17,7 +17,7 @@ body {
 
 .logo-image {
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 25%px;
     width: 300px; /* Adjust the width as needed */
     height: auto; /* Maintain aspect ratio */
