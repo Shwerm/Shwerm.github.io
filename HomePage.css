@@ -29,7 +29,7 @@ body {
     .logo-image {
         position: absolute;
         top: 40px;
-        left: 20px;
+        left: 40px;
         width: 200px; /* Adjust for mobile devices */
         height: auto; 
     }
