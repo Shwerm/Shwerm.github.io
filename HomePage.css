@@ -32,4 +32,15 @@ body {
         width: 300px; /* Adjust for mobile devices */
         height: auto; 
     }
+
+    .background-image {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+        height: auto;
+        object-fit: cover;
+    }
+        
 }
