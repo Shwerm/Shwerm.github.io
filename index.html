@@ -5,12 +5,16 @@
     <link rel="stylesheet" type="text/css" href="HomePage.css">
 </head>
 <body>
-    <img src="Images/HomePage/DottedCover.png" alt="Full Screen Image" class="background-image">
+    <img src="Images/HomePage/DottedCover.png" alt="Full Screen Image" class="background-image" onclick="openYoutubeChannel()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
     <img src="Images/HomePage/DottedLogo.png" alt="Logo" class="logo-image" onclick="openInstagramProfile()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
     
     <script>
         function openInstagramProfile() {
             window.open('https://www.instagram.com/_.dotted/', '_blank');
+        }
+
+        function openYoutubeChannel() {
+            window.open('https://youtu.be/RRFN1Njx21g?si=Rc6ansDUU29EmElE', '_blank');
         }
         
         function changeCursor(cursorType) {
