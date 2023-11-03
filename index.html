@@ -1,14 +1,24 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Dotted Occurrences</title>
+
     <link rel="stylesheet" type="text/css" href="HomePage.css">
 </head>
-<body class="black-background">
+
+<body>
+
     <div class="content-wrapper">
-        <img src="Images/HomePage/DottedLogo.png" alt="Logo" class="logo-image" onclick="openInstagramProfile()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
-        <img src="Images/HomePage/DottedCover.png" alt="Full Screen Image" class="background-image" onclick="openYoutubeChannel()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
+
+        <img src="Images/HomePage/DottedLogo.png" class="logo-image" onclick="openInstagramProfile()" 
+        onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
+
+        <img src="Images/HomePage/DottedCover.png" class="background-image" onclick="openYoutubeChannel()" 
+        onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
+
         <button class="nav-button" onclick="window.location.href='videos.html'">Videos</button>
+        
     </div>
 
     <script>
@@ -24,5 +34,7 @@
             document.querySelector('.logo-image').style.cursor = cursorType;
         }
     </script>
+
 </body>
+
 </html>
