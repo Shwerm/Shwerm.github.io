@@ -50,3 +50,15 @@ body {
     left: 9%;
     transform: translateX(-50%);
 }
+
+/* Media Query for Mobile Devices */
+@media screen and (max-device-width: 480px)
+    and (orientation: portrait) {
+    .logo-image {
+        width: 45%; /* Adjust for mobile devices */
+    }
+
+    .background-image {
+        width: 100%;
+    }
+    }
