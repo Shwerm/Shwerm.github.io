@@ -4,10 +4,13 @@
     <title>Dotted Occurrences</title>
     <link rel="stylesheet" type="text/css" href="HomePage.css">
 </head>
-<body>
-    <img src="Images/HomePage/DottedCover.png" alt="Full Screen Image" class="background-image" onclick="openYoutubeChannel()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
-    <img src="Images/HomePage/DottedLogo.png" alt="Logo" class="logo-image" onclick="openInstagramProfile()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
-    
+<body class="black-background">
+    <div class="content-wrapper">
+        <img src="Images/HomePage/DottedLogo.png" alt="Logo" class="logo-image" onclick="openInstagramProfile()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
+        <img src="Images/HomePage/DottedCover.png" alt="Full Screen Image" class="background-image" onclick="openYoutubeChannel()" onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
+        <button class="nav-button" onclick="window.location.href='videos.html'">Videos</button>
+    </div>
+
     <script>
         function openInstagramProfile() {
             window.open('https://www.instagram.com/_.dotted/', '_blank');
