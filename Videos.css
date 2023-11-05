@@ -55,15 +55,6 @@ body {
     left: 350px;
 }
 
-.BtsText{
-    font-size: 50px;
-    color: white;
-    position: absolute;
-    top: 240px;
-    left: 1000px;
-    font-family: PressStart;
-}
-
 .image-grid {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
@@ -146,6 +137,79 @@ body {
     background-color: white;
     color: black;
 }
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+    .logo-image {
+        width: 40%;
+        left: 1px;
+    }
+
+    .home-button,
+    .merch-button {
+    font-size: 10px; 
+    left: 50px;
+    }
+
+    .home-button {
+        bottom: 400px; 
+      }
+      
+    .merch-button { 
+        bottom: 350px; 
+      }
+
+    .Olomouc-Title{
+        width: 150px;
+        height: 100px;
+        position: absolute;
+        top: 120px;
+        left: 70px;
+    }
+
+    .Olomouc-YTvideo{
+        position: absolute;
+        left: 25%;
+        top: 200px;
+        width:300px; 
+        height:150px;
+    }
+
+    .image-grid{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 5px;
+        position: absolute;
+        top: 400px;
+        left: 100px;
+    }
+
+    .credit-text{
+        position: absolute;
+        top: 1180px;
+        left: 130px;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 8px;
+        font-family: PressStart;
+        max-width: 350px;
+        line-height: 2;
+    }
+
+    .description-text {
+        position: absolute;
+        top: 1270px;
+        right: 10px;
+        font-size: 8px;
+        font-family: PressStart;
+        line-height: 2;
+        color: white;
+        text-align: right;
+    }
+
+
+}
+
 
 
 

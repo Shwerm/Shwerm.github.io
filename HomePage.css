@@ -8,7 +8,7 @@ body {
     margin: 0;
     padding: 0;
     background-color: black;
-    overflow: hidden; /* Prevent scrollbars */
+    
 }
 
 .content-wrapper {
@@ -101,10 +101,12 @@ body {
     }
 
     .videos-button {
-        bottom: 330px; 
+        bottom: 400px; 
       }
       
     .merch-button { 
-        bottom: 280px; 
+        bottom: 350px; 
       }
+
+    
 }
