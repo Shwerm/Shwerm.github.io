@@ -84,12 +84,27 @@ body {
 }
 
 /* Media Query for Mobile Devices */
-@media screen and (max-device-width: 480px) and (orientation: portrait) {
+@media screen and (max-width: 480px) and (orientation: portrait) {
     .logo-image {
-        width: 45%; /* Adjust for mobile devices */
+        width: 40%;
+        left: 1px;
     }
 
     .background-image {
-        width: 100%;
+        width: 90%;
     }
+
+    .videos-button,
+    .merch-button {
+    font-size: 10px; 
+    left: 50px;
+    }
+
+    .videos-button {
+        bottom: 330px; 
+      }
+      
+    .merch-button { 
+        bottom: 280px; 
+      }
 }
