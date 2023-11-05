@@ -186,7 +186,7 @@ body {
 
     .credit-text{
         position: absolute;
-        top: 1180px;
+        top: 1190px;
         left: 130px;
         transform: translate(-50%, -50%);
         color: white;
@@ -198,7 +198,7 @@ body {
 
     .description-text {
         position: absolute;
-        top: 1270px;
+        top: 1280px;
         right: 10px;
         font-size: 8px;
         font-family: PressStart;
