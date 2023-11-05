@@ -78,12 +78,7 @@ body {
     border-radius: 10px;
     font-family: 'PressStart', sans-serif; /* Apply the custom font family */
 }
-.videos-button:hover {
-    background-color: white;
-    color: black;
-}
-
-.merch-button:hover {
+.videos-button:hover, .merch-button:hover {
     background-color: white;
     color: black;
 }

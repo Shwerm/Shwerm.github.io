@@ -44,14 +44,14 @@ body {
     width: 550px;
     height: 400px;
     position: absolute;
-    top: 120px;
+    top: 140px;
     left: 250px
 
 }
 
 .Olomouc-YTvideo{
     position: absolute;
-    top: 400px;
+    top: 425px;
     left: 350px;
 }
 
@@ -80,4 +80,72 @@ body {
     height: 80%;
     object-fit: scale-down;
   }
+
+.credit-text {
+    position: absolute;
+    top: 810px;
+    left: 490px;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 10px;
+    font-family: PressStart;
+    max-width: 300px;
+    line-height: 2.5;
+}
+
+.description-text {
+    position: absolute;
+    top: 750px;
+    right: 20px;
+    font-size: 10px;
+    font-family: PressStart;
+    line-height: 2.5;
+    color: white;
+    text-align: right;
+}
+
+.home-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 600px;
+    left: 9%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    border-radius: 10px;
+    font-family: 'PressStart', sans-serif; /* Apply the custom font family */
+}
+
+.merch-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 530px;
+    left: 9%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    border-radius: 10px;
+    font-family: 'PressStart', sans-serif; /* Apply the custom font family */
+}
+
+.merch-button:hover, .home-button:hover {
+    background-color: white;
+    color: black;
+}
+
+
 

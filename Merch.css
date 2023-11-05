@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'PressStart';
+    src: url('Fonts/Press_Start/PressStart2P-Regular.ttf') format('truetype');
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -33,4 +38,47 @@ body {
     left: 20px; /* Adjust the left position as needed */
     cursor: pointer;
     z-index: 1; /* Ensure the logo is above the background image */
+}
+
+.home-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 600px;
+    left: 9%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    border-radius: 10px;
+    font-family: 'PressStart', sans-serif; /* Apply the custom font family */
+}
+
+.videos-button {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 530px;
+    left: 9%;
+    transform: translateX(-50%);
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    border-radius: 10px;
+    font-family: 'PressStart', sans-serif; /* Apply the custom font family */
+}
+
+.home-button:hover, .videos-button:hover {
+    background-color: white;
+    color: black;
 }
