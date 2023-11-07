@@ -16,7 +16,7 @@
         onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
 
         <img src="Images/HomePage/DottedCover.png" class="background-image" onclick="openYoutubeChannel()" 
-        onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
+        onmouseover="alterCursor('pointer')" onmouseout="alterCursor('default')">
 
         <button class="videos-button" onclick="window.location.href='videos.html'">Videos</button>
         <button class="merch-button" onclick="window.location.href='Merch.html'">Merch</button>
@@ -34,6 +34,10 @@
         
         function changeCursor(cursorType) {
             document.querySelector('.logo-image').style.cursor = cursorType;
+        }
+
+        function alterCursor(cursorType) {
+            document.querySelector('.background-image').style.cursor = cursorType;
         }
     </script>
 
