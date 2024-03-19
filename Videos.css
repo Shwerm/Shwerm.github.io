@@ -20,10 +20,10 @@ body {
 }
 
 .background-image {
-    width: 80%; /* Adjust the width as needed */
+    width: 80%; 
     height: auto;
     object-fit: cover;
-    margin: 0 auto; /* Center the background image horizontally */
+    margin: 0 auto; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,13 +31,13 @@ body {
 }
 
 .logo-image {
-    width: 300px; /* Adjust the width as needed */
-    height: auto; /* Maintain aspect ratio */
+    width: 300px; 
+    height: auto; 
     position: absolute;
-    top: 20px; /* Adjust the top position as needed */
-    left: 20px; /* Adjust the left position as needed */
+    top: 20px; 
+    left: 20px; 
     cursor: pointer;
-    z-index: 1; /* Ensure the logo is above the background image */
+    z-index: 1; 
 }
 
 .Olomouc-Title{
@@ -128,9 +128,9 @@ body {
     bottom: 530px;
     left: 9%;
     transform: translateX(-50%);
-    transition: background-color 0.3s, color 0.3s; /* Smooth transition effect */
+    transition: background-color 0.3s, color 0.3s; 
     border-radius: 10px;
-    font-family: 'PressStart', sans-serif; /* Apply the custom font family */
+    font-family: 'PressStart', sans-serif; 
 }
 
 .merch-button:hover, .home-button:hover {
