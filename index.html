@@ -1,80 +1,80 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
-<!--Header Aspect.-->
-<head>
+    <!--Header Aspect.-->
+    <head>
 
-    <!--Browser tab bar title.-->
-    <title>Dotted Occurrences</title>
+        <!--Browser tab bar title.-->
+        <title>Dotted Occurrences</title>
 
-    <!-- Sets the character encoding for the HTML document to UTF-8.-->
-    <meta charset="UTF-8">
+        <!-- Sets the character encoding for the HTML document to UTF-8.-->
+        <meta charset="UTF-8">
 
-    <!-- Sets the viewport width and initial scale for responsive design.-->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Sets the viewport width and initial scale for responsive design.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!--Link html file to CSS file.-->
-    <link rel="stylesheet" type="text/css" href="HomePage.css">
+        <!--Link html file to CSS file.-->
+        <link rel="stylesheet" type="text/css" href="HomePage.css">
 
-    <!--Adds Dotted Logo to tab logo.-->
-    <link rel="icon" href="Images/HomePage/DottedLogo.jpeg" type="image/x-icon">
+        <!--Adds Dotted Logo to tab logo.-->
+        <link rel="icon" href="Images/HomePage/DottedLogo.jpeg" type="image/x-icon">
 
-    <!--Adds Dotted Logo to shortcut icon.-->
-    <link rel="shortcut icon" href="path/to/favicon.ico" type="image/x-icon">
+        <!--Adds Dotted Logo to shortcut icon.-->
+        <link rel="shortcut icon" href="path/to/favicon.ico" type="image/x-icon">
 
-</head>
+    </head>
 
-<!--Body Aspect-->
-<body>
+    <!--Body Aspect-->
+    <body>
 
-    <!--Adds content wraper to this div section.-->
-    <div class="content-wrapper">
+        <!--Adds content wraper to this div section.-->
+        <div class="content-wrapper">
 
-        <!--Adds the dotted logo image to the page.-->
-        <!--Clicking the logo opens the Instagram profile in a new tab.-->
-        <!--The cursor changes to a pointer on hover and back to default on mouseout.-->
-        <img src="Images/HomePage/DottedLogo.jpeg" class="logo-image" onclick="openInstagramProfile()"
+            <!--Adds the dotted logo image to the page.-->
+            <!--Clicking the logo opens the Instagram profile in a new tab.-->
+            <!--The cursor changes to a pointer on hover and back to default on mouseout.-->
+            <img src="Images/HomePage/DottedLogo.jpeg" class="logo-image" onclick="openInstagramProfile()"
             onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
-        
-        <!--Adds the dotted cover image to the page.-->
-        <!--Clicking the image opens the Youtube channel in a new tab.-->
-        <!--The cursor changes to a pointer on hover and back to default on mouseout.-->
-        <img src="Images/HomePage/DottedCover.png" class="background-image" onclick="openYoutubeChannel()"
+            
+            <!--Adds the dotted cover image to the page.-->
+            <!--Clicking the image opens the Youtube channel in a new tab.-->
+            <!--The cursor changes to a pointer on hover and back to default on mouseout.-->
+            <img src="Images/HomePage/DottedCover.png" class="background-image" onclick="openYoutubeChannel()"
             onmouseover="alterCursor('pointer')" onmouseout="alterCursor('default')">
-        
-        <!--Adds buttons to navigate to other pages on the site.-->
-        <!--Clicking the "Videos" button navigates to the videos page.-->
-        <!--Clicking the "Merch" button navigates to the merch page.-->
-        <button class="videos-button" onclick="window.location.href='videos.html'">Videos</button>
-        <button class="merch-button" onclick="window.location.href='Merch.html'">Merch</button>
+            
+            <!--Adds buttons to navigate to other pages on the site.-->
+            <!--Clicking the "Videos" button navigates to the videos page.-->
+            <!--Clicking the "Merch" button navigates to the merch page.-->
+            <button class="videos-button" onclick="window.location.href='videos.html'">Videos</button>
+            <button class="merch-button" onclick="window.location.href='Merch.html'">Merch</button>
 
-    </div>
+        </div>
 
-    <!--JavaScript functionality.-->
-    <script>
+        <!--JavaScript functionality.-->
+        <script>
 
-        //Opens the Instagram profile in a new tab.
-        function openInstagramProfile() {
-            window.open('https://www.instagram.com/_.dotted/', '_blank');
-        }
+            //Opens the Instagram profile in a new tab.
+            function openInstagramProfile() {
+                window.open('https://www.instagram.com/_.dotted/', '_blank');
+            }
 
-        //Opens the Youtube channel in a new tab.
-        function openYoutubeChannel() {
-            window.open('https://youtu.be/RRFN1Njx21g?si=Rc6ansDUU29EmElE', '_blank');
-        }
-        
-        //Changes the cursor to a pointer on hover and back to default on mouseout.
-        function changeCursor(cursorType) {
-            document.querySelector('.logo-image').style.cursor = cursorType;
-        }
+            //Opens the Youtube channel in a new tab.
+            function openYoutubeChannel() {
+                window.open('https://youtu.be/RRFN1Njx21g?si=Rc6ansDUU29EmElE', '_blank');
+            }
+            
+            //Changes the cursor to a pointer on hover and back to default on mouseout.
+            function changeCursor(cursorType) {
+                document.querySelector('.logo-image').style.cursor = cursorType;
+            }
 
-        //Changes the cursor to a pointer on hover and back to default on mouseout.
-        function alterCursor(cursorType) {
-            document.querySelector('.background-image').style.cursor = cursorType;
-        }
+            //Changes the cursor to a pointer on hover and back to default on mouseout.
+            function alterCursor(cursorType) {
+                document.querySelector('.background-image').style.cursor = cursorType;
+            }
 
-    </script>
+        </script>
 
-</body>
+    </body>
 
 </html>

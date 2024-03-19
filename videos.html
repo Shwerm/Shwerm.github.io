@@ -1,27 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
+    <!--Header Aspect.-->
     <head>
+
+        <!--Browser tab bar title.-->
         <title>Dotted - Videos</title>
+
+        <!-- Sets the character encoding for the HTML document to UTF-8.-->
         <meta charset="UTF-8">
+
+        <!-- Sets the viewport width and initial scale for responsive design.-->
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--Link html file to CSS file.-->
         <link rel="stylesheet" type="text/css" href="Videos.css">
+
+        <!--Adds Dotted Logo to tab logo.-->
+        <link rel="icon" href="Images/HomePage/DottedLogo.jpeg" type="image/x-icon">
+
+        <!--Adds Dotted Logo to shortcut icon.-->
+        <link rel="shortcut icon" href="path/to/favicon.ico" type="image/x-icon">
 
     </head>
 
     <body>
 
+        <!--Adds content wraper to this div section.-->
         <div class="content-wrapper">
 
+            <!--Adds the dotted logo image to the page.-->
+            <!--Clicking the logo opens the Instagram profile in a new tab.-->
+            <!--The cursor changes to a pointer on hover and back to default on mouseout.-->
             <img src="Images/HomePage/DottedLogo.jpeg" class="logo-image" onclick="openInstagramProfile()" 
             onmouseover="changeCursor('pointer')" onmouseout="changeCursor('default')">
 
-
         </div>
 
+        <!--Adds the Olomouc title image to the div section.-->
         <img src="Images/Videos/Olomouc Text.png" class="Olomouc-Title">
-
+        
+        <!--Adds all Olomouc video 'BTS' images in image grid.-->
         <div class="image-grid">
+
             <img src="Images/Videos/Collage/01.png">
             <img src="Images/Videos/Collage/02.png">
             <img src="Images/Videos/Collage/03.png">
@@ -36,13 +57,17 @@
         </div>
 
         <div>
-        <iframe class="Olomouc-YTvideo" width="560" height="315" src="https://www.youtube.com/embed/RRFN1Njx21g?si=74SGuEz2ZxaAaMlY" 
-        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
-        encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+            <!--Embeds & formats Olomouc YT video into div section.-->
+            <iframe class="Olomouc-YTvideo" width="560" height="315" src="https://www.youtube.com/embed/RRFN1Njx21g?si=74SGuEz2ZxaAaMlY" 
+            title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+            encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
         </div>
 
         <div>
 
+            <!--Adds the Olomouc video description and credits to div section.-->
             <p class="credit-text">
                 Writing: Dotted<br>
                 Filming: Dotted<br>
@@ -58,17 +83,28 @@
                 Yannik - @yanborzy <br>
                 Logan - @logan_gibson44 <br>
             </p>
+
         </div>
 
         <div>
+
+            <!--Adds the home and merch buttons to the div section.-->
             <button class="home-button" onclick="window.location.href='index.html'">Home</button>
             <button class="merch-button" onclick="window.location.href='Merch.html'">Merch</button>
+
         </div>
 
+        <!--JavaScript Functionality-->
         <script>
-            function openInstagramProfile() {
+
+            //Opens the Instagram profile in a new tab when the logo is clicked.
+            function openInstagramProfile() 
+            {
                 window.open('https://www.instagram.com/_.dotted/', '_blank');
             }
             
         </script>
+
     </body>
+
+</html>
